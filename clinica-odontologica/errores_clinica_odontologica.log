@@ -1,0 +1,72 @@
+[2022-04-2211:55:22] [ ERROR] [GlobalExceptionHandler:19] No existe el odontólogo con ID 1
+ [2022-04-2211:56:16] [ ERROR] [GlobalExceptionHandler:19] No existe el odontólogo con ID 1
+ [2022-04-2211:56:23] [ ERROR] [GlobalExceptionHandler:19] No existe el odontólogo con ID 1
+ [2022-04-2211:56:30] [ ERROR] [GlobalExceptionHandler:19] No existe el odontólogo con ID 2
+ [2022-04-2214:25:00] [ ERROR] [GlobalExceptionHandler:19] Required request body is missing: public org.springframework.http.ResponseEntity<?> com.dh.clinica.controller.OdontologoController.registrarOdontologo(com.dh.clinica.model.OdontologoDTO)
+ [2022-04-2214:25:13] [ ERROR] [GlobalExceptionHandler:19] No existe el odontólogo con ID 1
+ [2022-04-2216:42:33] [ ERROR] [GlobalExceptionHandler:19] No existe el turno con ID 7
+ [2022-04-2216:44:32] [ ERROR] [GlobalExceptionHandler:19] query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2
+ [2022-04-2415:06:41] [ ERROR] [GlobalExceptionHandler:19] Required request body is missing: public org.springframework.http.ResponseEntity<?> com.dh.clinica.controller.OdontologoController.registrarOdontologo(com.dh.clinica.model.OdontologoDTO)
+ [2022-04-2415:08:42] [ ERROR] [GlobalExceptionHandler:19] No existe el paciente con ID 5
+ [2022-04-2415:10:39] [ ERROR] [GlobalExceptionHandler:19] No existe el paciente con ID 1
+ [2022-04-2415:16:25] [ ERROR] [GlobalExceptionHandler:19] No existe el paciente con ID 1
+ [2022-04-2415:20:32] [ ERROR] [GlobalExceptionHandler:19] No existe el odontólogo con ID 1
+ [2022-04-2415:25:28] [ ERROR] [GlobalExceptionHandler:19] No existe el paciente con ID 2
+ [2022-04-2415:27:32] [ ERROR] [GlobalExceptionHandler:19] Required request body is missing: public org.springframework.http.ResponseEntity<com.dh.clinica.model.Paciente> com.dh.clinica.controller.PacienteController.registrarPaciente(com.dh.clinica.model.Paciente)
+ [2022-04-2415:33:20] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (1)"; SQL statement:
+delete from pacientes where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2415:33:33] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (1)"; SQL statement:
+delete from pacientes where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2415:33:43] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (1)"; SQL statement:
+delete from pacientes where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2415:33:57] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"; SQL statement:
+delete from odontologos where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2415:34:03] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"; SQL statement:
+delete from odontologos where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2415:34:28] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"; SQL statement:
+delete from odontologos where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2415:35:06] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"; SQL statement:
+delete from odontologos where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2415:35:25] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (1)"; SQL statement:
+delete from pacientes where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2415:36:40] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"; SQL statement:
+delete from odontologos where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2415:38:25] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"; SQL statement:
+delete from odontologos where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2415:39:15] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"; SQL statement:
+delete from odontologos where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2415:44:30] [ ERROR] [GlobalExceptionHandler:19] No existe el paciente con ID 3
+ [2022-04-2415:48:05] [ ERROR] [GlobalExceptionHandler:19] Required request body is missing: public org.springframework.http.ResponseEntity<com.dh.clinica.model.Paciente> com.dh.clinica.controller.PacienteController.registrarPaciente(com.dh.clinica.model.Paciente)
+ [2022-04-2415:51:11] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"; SQL statement:
+delete from odontologos where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2415:51:56] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"; SQL statement:
+delete from odontologos where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2415:52:03] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (1)"; SQL statement:
+delete from pacientes where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2415:52:13] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (1)"; SQL statement:
+delete from odontologos where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2415:54:11] [ ERROR] [GlobalExceptionHandler:19] Required request body is missing: public org.springframework.http.ResponseEntity<?> com.dh.clinica.controller.OdontologoController.registrarOdontologo(com.dh.clinica.model.OdontologoDTO)
+ [2022-04-2416:17:28] [ ERROR] [GlobalExceptionHandler:19] Required request body is missing: public org.springframework.http.ResponseEntity<com.dh.clinica.model.Paciente> com.dh.clinica.controller.PacienteController.registrarPaciente(com.dh.clinica.model.Paciente)
+ [2022-04-2416:27:05] [ ERROR] [GlobalExceptionHandler:19] JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('}' (code 125)): was expecting double-quote to start field name
+ at [Source: (PushbackInputStream); line: 5, column: 2]
+ [2022-04-2416:32:39] [ ERROR] [GlobalExceptionHandler:19] Required request body is missing: public org.springframework.http.ResponseEntity<com.dh.clinica.model.Paciente> com.dh.clinica.controller.PacienteController.registrarPaciente(com.dh.clinica.model.Paciente)
+ [2022-04-2416:36:20] [ ERROR] [GlobalExceptionHandler:19] No existe el paciente con ID 1
+ [2022-04-2417:24:51] [ ERROR] [GlobalExceptionHandler:19] Required request body is missing: public org.springframework.http.ResponseEntity<com.dh.clinica.model.Paciente> com.dh.clinica.controller.PacienteController.registrarPaciente(com.dh.clinica.model.Paciente)
+ [2022-04-2417:28:20] [ ERROR] [GlobalExceptionHandler:19] No existe el turno con ID 7
+ [2022-04-2417:57:50] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (1)"; SQL statement:
+delete from pacientes where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2417:57:54] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (1)"; SQL statement:
+delete from pacientes where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2417:58:12] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FK4OKCQR9IQT2IW6XHY1PPSMO3L: PUBLIC.TURNOS FOREIGN KEY(PACIENTE_ID) REFERENCES PUBLIC.PACIENTES(ID) (1)"; SQL statement:
+delete from pacientes where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2417:58:16] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2)"; SQL statement:
+delete from odontologos where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2417:58:22] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2)"; SQL statement:
+delete from odontologos where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2418:00:46] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2)"; SQL statement:
+delete from odontologos where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2418:01:04] [ ERROR] [GlobalExceptionHandler:19] could not execute statement; SQL [n/a]; constraint ["FKQTJ6T7MULC2JMFKV92X4CTKWH: PUBLIC.TURNOS FOREIGN KEY(ODONTOLOGO_ID) REFERENCES PUBLIC.ODONTOLOGOS(ID) (2)"; SQL statement:
+delete from odontologos where id=? [23503-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+ [2022-04-2418:01:48] [ ERROR] [GlobalExceptionHandler:19] Required request body is missing: public org.springframework.http.ResponseEntity<?> com.dh.clinica.controller.OdontologoController.registrarOdontologo(com.dh.clinica.model.OdontologoDTO) throws com.dh.clinica.exceptions.BadRequestException
+ [2022-04-2418:01:59] [ ERROR] [GlobalExceptionHandler:19] No existe el odontólogo con ID 1
+ 
